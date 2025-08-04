@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 a {
@@ -20,6 +21,19 @@ a {
     flex: 1;
 }
 
+.banner {
+    display: flex;
+    /*Replace justify with page margins?*/
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+
+.rightlinks {
+    display: flex;
+    gap: 35px;
+}
+
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -29,7 +43,7 @@ a {
 .footer {
     background-color: #1F2937;
     color: #FFFFFF;
-    height: 100px;
+    height: 60px;
     
 }
 
@@ -41,4 +55,17 @@ a {
     height: 100px;
     width: 100px;
     border: 2px solid blue;
+}
+
+/*Font styles only*/
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.rightlinks a,
+.herosecondtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
