@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .pagewrapper {
     display: flex;
     flex-direction: column;
@@ -26,4 +31,14 @@
     color: #FFFFFF;
     height: 100px;
     
+}
+
+.cta {
+    background-color: #3882F6;
+}
+
+.bluesquare {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
 }
