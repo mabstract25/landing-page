@@ -15,11 +15,7 @@ a {
     height: 100vh;
 }
 
-.header {
-    background-color: #1F2937;
-    color: #FFFFFF;
-    flex: 1;
-}
+
 
 .banner {
     display: flex;
@@ -32,6 +28,19 @@ a {
 .rightlinks {
     display: flex;
     gap: 35px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+.herocontent {
+    display: flex;
+}
+
+.herocontentleft {
+    width: 500px;
 }
 
 .quote {
@@ -68,4 +77,10 @@ a {
 .herosecondtext {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.heromaintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
