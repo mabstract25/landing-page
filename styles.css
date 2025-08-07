@@ -148,6 +148,30 @@ button {
     align-self: flex-end;
 }
 
+/*Cta Styles */
+
+.cta {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 150px 50px;
+}
+
+.ctacontainer {
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px 80px;
+    border-radius: 15px;
+    justify-content: space-around;
+    width: 850px;
+    color: #ffffff;
+    gap: 15px;
+}
+
+.ctaright button {
+    border: 1px solid #FFFFFF;
+}
+
 .footer {
     background-color: #1F2937;
     color: #FFFFFF;
@@ -155,9 +179,6 @@ button {
     
 }
 
-.cta {
-    background-color: #3882F6;
-}
 
 
 /*Font styles only*/
@@ -185,3 +206,7 @@ button {
     font-weight: 900;
 }
 
+.ctatitle {
+    font-size: 24px;
+    font-weight: 900;
+}
