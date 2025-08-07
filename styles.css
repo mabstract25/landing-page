@@ -1,3 +1,4 @@
+/* Generic Styles */
 * {
     margin: 0;
     padding: 0;
@@ -23,9 +24,10 @@ button {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    
 }
 
-
+/* Header Styles */
 
 .banner {
     display: flex;
@@ -40,13 +42,13 @@ button {
     gap: 35px;
 }
 
-.headercontainer {
-    margin: 0px 15%;
-}
+
 
 .header {
     background-color: #1F2937;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
 }
 
 .herocontent {
@@ -69,6 +71,8 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+/* Information Styles */
 
 .quote {
     background-color: #E5E7EB;
