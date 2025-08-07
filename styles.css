@@ -74,6 +74,51 @@ button {
 
 /* Information Styles */
 
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px 100px 0px;
+    gap: 40px;
+}
+
+.infocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.infoitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    gap: 15px;
+}
+
+.infocaption {
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.informationtitle {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.bluesquare {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+/* Quote Styles */
+
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -91,11 +136,6 @@ button {
     background-color: #3882F6;
 }
 
-.bluesquare {
-    height: 100px;
-    width: 100px;
-    border: 2px solid blue;
-}
 
 /*Font styles only*/
 
@@ -122,8 +162,3 @@ button {
     font-weight: 900;
 }
 
-.informationtitle {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-}
