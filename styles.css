@@ -9,6 +9,16 @@ a {
     color: inherit;
 }
 
+button {
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight:900;
+}
+
 .pagewrapper {
     display: flex;
     flex-direction: column;
@@ -20,7 +30,7 @@ a {
 .banner {
     display: flex;
     /*Replace justify with page margins?*/
-    justify-content: space-around;
+    justify-content: space-between;
     height: 60px;
     align-items: center;
 }
@@ -30,6 +40,10 @@ a {
     gap: 35px;
 }
 
+.headercontainer {
+    margin: 0px 15%;
+}
+
 .header {
     background-color: #1F2937;
     color: #FFFFFF;
@@ -37,10 +51,23 @@ a {
 
 .herocontent {
     display: flex;
+    padding: 150px 0px;
+    justify-content: space-between;
+    
+
 }
 
 .herocontentleft {
     width: 500px;
+    
+}
+
+.herocontentright {
+    width: 500px;
+    display: flex;
+    background-color: hsl(213.75deg 6.84% 45.88%);
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -71,12 +98,18 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .rightlinks a,
 .herosecondtext {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.herosecondtext {
+    padding-bottom: 15px;
+    padding-right:10px;
 }
 
 .heromaintext {
