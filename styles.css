@@ -122,7 +122,30 @@ button {
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
-    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 60px 0px 60px 0px;
+    justify-content: center;
+}
+
+.quotecontainer {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteitalic {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.quoteauthor {
+    font-size:24px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: flex-end;
 }
 
 .footer {
