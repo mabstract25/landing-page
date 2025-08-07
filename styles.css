@@ -148,7 +148,7 @@ button {
     align-self: flex-end;
 }
 
-/*Cta Styles */
+/* Cta Styles */
 
 .cta {
     background-color: #FFFFFF;
@@ -172,16 +172,20 @@ button {
     border: 1px solid #FFFFFF;
 }
 
+/* Footer Styles*/
+
 .footer {
     background-color: #1F2937;
     color: #FFFFFF;
-    height: 60px;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
     
 }
 
 
 
-/*Font styles only*/
+/* Font styles only*/
 
 .logo {
     font-size: 24px;
